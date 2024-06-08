@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 1</title>
-    <link rel="stylesheet" href="assets/css/ex1.css">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="assets/css/ex3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/img/lotus.png" type="image/x-icon">
@@ -14,9 +14,9 @@
 <body>
     <nav class="purple-nav">
         <div class="menu-icon" onclick="toggleMenu()">☰</div>
-        <a href="../atv1/ex1.html"><img class="arrow-icon-left" src="assets/img/seta.png" height="50px" alt=""></a>
-        <div class="nav-title">Atividade 1</div>
-        <a href="../atv2/ex2.html"><img class="arrow-icon-right" src="assets/img/seta.png" height="50px" alt=""></a>
+        <a href="../atv2/ex2.html"><img class="arrow-icon-left" src="assets/img/seta.png" height="50px" alt=""></a>
+        <div class="nav-title">Atividade 3</div>
+        <a href="../atv4/ex4.html"><img class="arrow-icon-right" src="assets/img/seta.png" height="50px" alt=""></a>
         <div class="avatar">
             <img src="assets/img/avatar.jpg" alt="Avatar">
         </div>
@@ -53,17 +53,22 @@
     </nav>
 
     <div class="page-description">
-        <p>1. Página Inicial Simples</p>
-        <h5>o Crie uma página HTML com um título centralizado, um parágrafo de
-            boas-vindas estilizado com CSS e um botão que, ao ser clicado, exibe um
-            alerta com a mensagem "Bem-vindo!</h5>
+        <p>3. Lista Interativa</p>
+        <h5>o Crie uma lista não ordenada de itens. Adicione um evento em JavaScript
+            para destacar (mudar a cor de fundo) um item quando ele for clicado.</h5>
     </div>
 
     <div id="content">
-        <h1 class="h1-exercicio">Exercício 1</h1>
-        <p class="p-boas-vindas">Boas-Vindas</p>
-        <button onclick="btn_bemvindo()" class="btn-bem-vindo">Clique aqui!</button>
+        <h2 class="titulo-frutas">Frutas</h2>
+        <ul id="lista" class="dividido">
+            <li class="lista-1"><img class="imgs-lista" src="assets/img/maçã.png" alt="Maçã"> Maçã</li>
+            <li><img class="imgs-lista" src="assets/img/laranja.png" alt="Laranja"> Laranja</li>
+            <li><img class="imgs-lista" src="assets/img/abacaxi.png" alt="Abacaxi"> Abacaxi</li>
+            <li><img class="imgs-lista" src="assets/img/melância.png" alt="Melância"> Melância</li>
+        </ul>
     </div>
+
+
 
     <footer class="purple-footer">
         <div class="footer-left">
@@ -82,7 +87,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/ex1.js"></script>
+    <script src="assets/js/ex3.js"></script>
 </body>
 
 </html>

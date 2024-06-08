@@ -216,48 +216,102 @@ footer img {
     filter: invert(100%);
     filter: brightness(1000%);
     transform: scaleX(-1);
-    opacity: 0%;
 }
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-.h1-exercicio {
-    margin: 0;
-}
-
-.p-boas-vindas {
-    font-size: 24px;
-    color: black;
-}
-
-.btn-bem-vindo {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+.destaque {
     background-color: white;
-    transition: 0.2s;
-    width: 300px;
-    border: 1px solid black;
+    color: black;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease, width 0.3s ease, color 0.3s ease;
 }
 
-#content h1,
-#content p {
+#lista li.destaque {
+    color: black;
+    border-radius: 10px;
+}
+
+#lista li.destaque:nth-child(1) {
+    background-color: red;
+}
+
+#lista li.destaque:nth-child(2) {
+    background-color: orange;
+}
+
+#lista li.destaque:nth-child(3) {
+    background-color: yellow;
+}
+
+#lista li.destaque:nth-child(4) {
+    background-color: greenyellow;
+}
+
+.dividido li:nth-child(4) {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.lista-1 {
+    border-top: 1px solid black;
+}
+
+#lista {
+    padding: 0;
+}
+
+#lista li {
+    cursor: pointer;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+#lista li.destaque {
+    color: black;
+    border-radius: 10px;
+}
+
+.imgs-lista {
+    width: 15px;
+}
+
+.titulo-frutas {
     color: white;
+    text-align: center;
+    background-color: rgb(38, 0, 128);
+    border: 1px solid black;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.btn-bem-vindo:hover {
-    transition: 0.2s;
-    transform: scale(105%);
-    background-color: rgb(188, 200, 255);
-}
 
 #content {
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 1000px;
-    margin: 0 auto;
-    position: absolute;
-    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.dividido {
+    background-color: white;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.dividido li {
+    border-bottom: 1px solid black;
+    border-radius: 0 !important;
 }

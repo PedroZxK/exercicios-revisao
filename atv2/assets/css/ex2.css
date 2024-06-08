@@ -216,48 +216,16 @@ footer img {
     filter: invert(100%);
     filter: brightness(1000%);
     transform: scaleX(-1);
-    opacity: 0%;
 }
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-.h1-exercicio {
-    margin: 0;
+.arlecchino {
+    border: 2px solid white;
+    transition: 0.3s;
 }
 
-.p-boas-vindas {
-    font-size: 24px;
-    color: black;
-}
-
-.btn-bem-vindo {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: white;
-    transition: 0.2s;
-    width: 300px;
-    border: 1px solid black;
-}
-
-#content h1,
-#content p {
-    color: white;
-}
-
-.btn-bem-vindo:hover {
-    transition: 0.2s;
-    transform: scale(105%);
-    background-color: rgb(188, 200, 255);
-}
-
-#content {
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 1000px;
-    margin: 0 auto;
-    position: absolute;
-    z-index: 1;
+.arlecchino:hover {
+    border: 2px solid red;
+    transition: 0.3s;
 }
