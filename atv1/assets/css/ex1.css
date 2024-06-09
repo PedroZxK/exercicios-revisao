@@ -205,21 +205,57 @@ footer img {
     margin: 5px 0;
 }
 
-.arrow-icon-right {
-    margin-left: -15vh;
-    filter: invert(100%);
-    filter: brightness(1000%);
+.arrow-right {
+    position: absolute;
+    right: 75vh;
 }
 
-.arrow-icon-left {
-    margin-left: 20vh;
-    filter: invert(100%);
-    filter: brightness(1000%);
-    transform: scaleX(-1);
-    opacity: 0%;
+.mobile-buttons {
+    text-align: center;
+    position: fixed;
+    bottom: 12vh;
+    left: 0;
+    right: 0;
+}
+
+.mobile-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5E00FF;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+#button1 {
+    display: none;
 }
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5E00FF;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(106%);
+    transition: 0.3s;
+    background-color: #833bff;
+    color: rgb(255, 240, 240);
+}
 
 .h1-exercicio {
     margin: 0;
@@ -234,6 +270,7 @@ footer img {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    color: black;
     border-radius: 5px;
     background-color: white;
     transition: 0.2s;

@@ -205,27 +205,65 @@ footer img {
     margin: 5px 0;
 }
 
-.arrow-icon-right {
-    margin-left: -15vh;
-    filter: invert(100%);
-    filter: brightness(1000%);
+.arrow-left {
+    position: absolute;
+    left: 75vh;
 }
 
-.arrow-icon-left {
-    margin-left: 20vh;
-    filter: invert(100%);
-    filter: brightness(1000%);
-    transform: scaleX(-1);
+.arrow-right {
+    position: absolute;
+    right: 75vh;
+}
+
+.mobile-buttons {
+    text-align: center;
+    position: fixed;
+    bottom: 12vh;
+    left: 0;
+    right: 0;
+}
+
+.mobile-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5E00FF;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
 }
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-.arlecchino {
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5E00FF;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(106%);
+    transition: 0.3s;
+    background-color: #833bff;
+    color: rgb(255, 240, 240);
+}
+
+.raiden {
     border: 2px solid white;
     transition: 0.3s;
 }
 
-.arlecchino:hover {
-    border: 2px solid red;
+.raiden:hover {
+    border: 2px solid #5E00FF;
     transition: 0.3s;
 }

@@ -1,0 +1,463 @@
+@media only screen and (max-width: 320px) {
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .menu-content {
+        font-size: 0.7rem;
+        max-height: 25vh;
+    }
+
+    .arrow-left {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+
+    }
+
+    nav .nav-title {
+        font-size: 20px;
+    }
+
+    nav .avatar {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        right: 100%;
+    }
+
+    .footer-left h2 {
+        font-size: 1.3rem;
+    }
+
+    .footer-left p {
+        font-size: 0.9rem;
+    }
+
+    .page-description h5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-height: 20vh;
+        min-width: 10vh;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 319px) {
+    .page-description h5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .arrow-left {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+
+    }
+
+    nav .avatar {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+    }
+
+    nav .nav-title {
+        font-size: 25px;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        right: 100%;
+    }
+
+    .footer-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-left p {
+        font-size: 0.9rem;
+    }
+
+    .mobile-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-height: 20vh;
+        min-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 718px) {
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 10vh;
+        scale: 90%;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 10vh;
+        scale: 90%;
+    }
+
+    nav .avatar {
+        width: 60px;
+        height: 60px;
+        top: 30%;
+    }
+
+    .page-description h5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    nav .nav-title {
+        font-size: 30px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+        right: 100%;
+    }
+
+    .footer-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-left p {
+        font-size: 1.1rem;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 719px) {
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 600px;
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 15vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 15vh;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+
+    .page-description h5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 767px) {
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 20vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 20vh;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+
+    .page-description h5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 901px) {
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+
+    .carousel-inner img {
+        width: auto;
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 25vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 25vh;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1023px) {
+    .container {
+        scale: 100%;
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 35vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 35vh;
+    }
+
+    nav .avatar {
+        width: 70px;
+        height: 70px;
+        top: 35%;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 40vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 40vh;
+    }
+
+    nav .avatar {
+        width: 80px;
+        height: 80px;
+        top: 40%;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 50vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 50vh;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 50vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 50vh;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 55vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 55vh;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1700px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 55vh;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 55vh;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1701px) {
+    .mobile-buttons {
+        display: none;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-width: 10vh;
+    }
+}
