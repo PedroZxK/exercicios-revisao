@@ -1,7 +1,11 @@
 @media only screen and (max-width: 320px) {
-    #map {
-        width: 250px;
-        height: 450px;
+
+    .home-h1 {
+        font-size: 1rem;
+    }
+
+    #content {
+        scale: 75%;
     }
 
     .menu-content {
@@ -48,10 +52,13 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 319px) {
-    #map {
-        width: 300px;
-        height: 430px;
+@media only screen and (max-width: 405px) and (min-width: 319px) {
+    .home-h1 {
+        font-size: 1.2rem;
+    }
+
+    #content {
+        scale: 85%;
     }
 
     .arrow-left {
@@ -70,7 +77,7 @@
     }
 
     nav .nav-title {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     footer img {
@@ -100,9 +107,13 @@
 }
 
 @media only screen and (max-width: 480px) and (min-width: 406px) {
-    #map {
-        width: 340px;
-        height: 500px;
+    .home-h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #content {
+        scale: 85%;
     }
 
     .arrow-left {
@@ -122,6 +133,11 @@
 
     nav .nav-title {
         font-size: 25px;
+    }
+
+    .page-description h5 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     footer img {
@@ -144,11 +160,6 @@
         margin-top: 20px;
     }
 
-    .page-description h5 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .menu-content {
         font-size: 0.8rem;
         max-height: 30vh;
@@ -157,11 +168,6 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
-    #map {
-        width: 400px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -208,11 +214,6 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 718px) {
-    #map {
-        width: 520px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -259,11 +260,6 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 719px) {
-    #map {
-        width: 640px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -291,11 +287,6 @@
 }
 
 @media only screen and (max-width: 900px) and (min-width: 767px) {
-    #map {
-        width: 690px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -323,11 +314,6 @@
 }
 
 @media only screen and (max-width: 1022px) and (min-width: 901px) {
-    #map {
-        width: 810px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -350,11 +336,6 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1023px) {
-    #map {
-        width: 930px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -377,11 +358,6 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
-    #map {
-        width: 1100px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -404,11 +380,6 @@
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1400px) {
-    #map {
-        width: 1200px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -425,11 +396,6 @@
 }
 
 @media only screen and (min-width: 1401px) and (max-width: 1500px) {
-    #map {
-        width: 1300px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -446,11 +412,6 @@
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1600px) {
-    #map {
-        width: 1400px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -467,11 +428,6 @@
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1700px) {
-    #map {
-        width: 1500px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }

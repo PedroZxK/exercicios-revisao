@@ -1,7 +1,18 @@
 @media only screen and (max-width: 320px) {
-    #map {
-        width: 250px;
-        height: 450px;
+    #content {
+        max-width: 175px;
+        padding: 30px;
+    }
+
+    #contatoForm {
+        font-size: 0.6rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 5px;
     }
 
     .menu-content {
@@ -43,15 +54,26 @@
     }
 
     .page-description h5 {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 319px) {
-    #map {
-        width: 300px;
-        height: 430px;
+    #content {
+        max-width: 250px;
+        padding: 30px;
+    }
+
+    #contatoForm {
+        font-size: 0.7rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 5px;
     }
 
     .arrow-left {
@@ -61,127 +83,6 @@
     .arrow-right {
         display: none;
 
-    }
-
-    nav .avatar {
-        width: 50px;
-        height: 50px;
-        top: 25%;
-    }
-
-    nav .nav-title {
-        font-size: 25px;
-    }
-
-    footer img {
-        width: 30px;
-        height: 30px;
-        margin-right: 45px;
-        margin-left: -20px;
-    }
-
-    .footer-left h2 {
-        font-size: 0.9rem;
-    }
-
-    .footer-left p {
-        font-size: 0.6rem;
-    }
-
-    .mobile-buttons {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .menu-content {
-        font-size: 0.8rem;
-        max-height: 30vh;
-    }
-}
-
-@media only screen and (max-width: 480px) and (min-width: 406px) {
-    #map {
-        width: 340px;
-        height: 500px;
-    }
-
-    .arrow-left {
-        display: none;
-    }
-
-    .arrow-right {
-        display: none;
-
-    }
-
-    nav .avatar {
-        width: 50px;
-        height: 50px;
-        top: 25%;
-    }
-
-    nav .nav-title {
-        font-size: 25px;
-    }
-
-    footer img {
-        width: 30px;
-        height: 30px;
-        margin-right: 45px;
-        margin-left: -20px;
-    }
-
-    .footer-left h2 {
-        font-size: 0.9rem;
-    }
-
-    .footer-left p {
-        font-size: 0.6rem;
-    }
-
-    .mobile-buttons {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .page-description h5 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .menu-content {
-        font-size: 0.8rem;
-        max-height: 30vh;
-        z-index: 1000;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-    #map {
-        width: 400px;
-        height: 550px;
-    }
-
-    .mobile-buttons {
-        display: none;
-    }
-
-    .arrow-left {
-        position: absolute;
-        left: 10vh;
-        scale: 90%;
-    }
-
-    .arrow-right {
-        position: absolute;
-        right: 10vh;
-        scale: 90%;
-    }
-
-    nav .avatar {
-        width: 60px;
-        height: 60px;
-        top: 30%;
     }
 
     .page-description h5 {
@@ -189,28 +90,46 @@
         padding-right: 25px;
     }
 
+    nav .avatar {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+    }
+
     nav .nav-title {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     footer img {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        margin-right: 45px;
+        margin-left: -20px;
     }
 
     .footer-left h2 {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .footer-left p {
+        font-size: 0.6rem;
+    }
+
+    .mobile-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .menu-content {
         font-size: 0.8rem;
+        max-height: 30vh;
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 718px) {
-    #map {
-        width: 520px;
-        height: 550px;
+@media only screen and (min-width: 481px) and (max-width: 718px) {
+    #content {
+        max-width: 330px;
+        padding: 30px;
     }
 
     .mobile-buttons {
@@ -259,11 +178,6 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 719px) {
-    #map {
-        width: 640px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -291,11 +205,6 @@
 }
 
 @media only screen and (max-width: 900px) and (min-width: 767px) {
-    #map {
-        width: 690px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -322,12 +231,7 @@
     }
 }
 
-@media only screen and (max-width: 1022px) and (min-width: 901px) {
-    #map {
-        width: 810px;
-        height: 550px;
-    }
-
+@media only screen and (max-width: 1024px) and (min-width: 901px) {
     .mobile-buttons {
         display: none;
     }
@@ -350,11 +254,6 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1023px) {
-    #map {
-        width: 930px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -377,11 +276,6 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
-    #map {
-        width: 1100px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -404,11 +298,6 @@
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1400px) {
-    #map {
-        width: 1200px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -425,11 +314,6 @@
 }
 
 @media only screen and (min-width: 1401px) and (max-width: 1500px) {
-    #map {
-        width: 1300px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -446,11 +330,6 @@
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1600px) {
-    #map {
-        width: 1400px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }
@@ -467,11 +346,6 @@
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1700px) {
-    #map {
-        width: 1500px;
-        height: 550px;
-    }
-
     .mobile-buttons {
         display: none;
     }

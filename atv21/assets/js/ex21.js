@@ -26,27 +26,19 @@ document.addEventListener('click', function (event) {
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-document.getElementById('loginForm').addEventListener('submit', function (e) {
-    e.preventDefault();
+function fazerReserva() {
+    var dateInput = document.getElementById("date");
+    var timeInput = document.getElementById("time");
 
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    const errorMessage = document.getElementById('errorMessage');
+    var selectedDate = dateInput.value;
+    var selectedTime = timeInput.value;
 
-    const validUsername = 'usuario';
-    const validPassword = 'senha123';
-
-    if (username === validUsername && password === validPassword) {
-        localStorage.setItem('loggedIn', 'true');
-        window.location.href = 'home.html';
+    if (selectedDate && selectedTime) {
+        alert("Reserva feita para " + selectedDate + " às " + selectedTime + ".");
+        // Limpar os campos após a reserva ser feita
+        dateInput.value = "";
+        timeInput.value = "";
     } else {
-        errorMessage.textContent = 'Usuário ou senha inválidos';
+        alert("Por favor, selecione uma data e hora válidas.");
     }
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    if (localStorage.getItem('loggedIn') === 'true') {
-        alert('Você já está logado!');
-        window.location.href = 'home.html';
-    }
-});
+}
