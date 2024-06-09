@@ -26,13 +26,28 @@ document.addEventListener('click', function (event) {
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-const inputText = document.getElementById('inputText');
-const wordCount = document.getElementById('wordCount');
+document.getElementById('loginForm').addEventListener('submit', function (e) {
+    e.preventDefault();
 
-inputText.addEventListener('input', () => {
-    const text = inputText.value.trim();
-    const words = text.split(/\s+/);
-    const wordCountValue = words.filter(word => word !== '').length;
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    const errorMessage = document.getElementById('errorMessage');
 
-    wordCount.textContent = wordCountValue;
+    const validUsername = 'usuario';
+    const validPassword = 'senha123';
+
+    if (username === validUsername && password === validPassword) {
+        localStorage.setItem('loggedIn', 'true');
+        window.location.href = 'home.html';
+    } else {
+        // Exibir mensagem de erro
+        errorMessage.textContent = 'Usuário ou senha inválidos';
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    if (localStorage.getItem('loggedIn') === 'true') {
+        alert('Você já está logado!');
+        window.location.href = 'home.html';
+    }
 });

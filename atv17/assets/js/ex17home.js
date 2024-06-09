@@ -13,6 +13,8 @@ function toggleMenu() {
     }
 }
 
+/* ---------------------------------------PADRAO---------------------------------------------------- */
+
 document.addEventListener('click', function (event) {
     var menuContent = document.getElementById('menuContent');
     var menuIcon = document.querySelector('.menu-icon');
@@ -23,16 +25,13 @@ document.addEventListener('click', function (event) {
         menuContent.classList.remove('show');
     }
 });
+document.addEventListener('DOMContentLoaded', function () {
+    if (localStorage.getItem('loggedIn') !== 'true') {
+        window.location.href = 'ex17.html';
+    }
+});
 
-/* ---------------------------------------PADRAO---------------------------------------------------- */
-
-const inputText = document.getElementById('inputText');
-const wordCount = document.getElementById('wordCount');
-
-inputText.addEventListener('input', () => {
-    const text = inputText.value.trim();
-    const words = text.split(/\s+/);
-    const wordCountValue = words.filter(word => word !== '').length;
-
-    wordCount.textContent = wordCountValue;
+document.getElementById('logoutButton').addEventListener('click', function () {
+    localStorage.removeItem('loggedIn');
+    window.location.href = 'index.html';
 });
