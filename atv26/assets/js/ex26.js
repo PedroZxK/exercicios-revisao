@@ -25,27 +25,3 @@ document.addEventListener('click', function (event) {
 });
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
-
-document.addEventListener('DOMContentLoaded', function () {
-    const questions = document.querySelectorAll('.faq-question');
-
-    questions.forEach(function (question) {
-        question.addEventListener('click', function () {
-            const item = this.parentElement;
-            const answer = item.querySelector('.faq-answer');
-
-            if (item.classList.contains('open')) {
-                item.classList.remove('open');
-                answer.style.maxHeight = null;
-            } else {
-                const openItem = document.querySelector('.faq-item.open');
-                if (openItem) {
-                    openItem.classList.remove('open');
-                    openItem.querySelector('.faq-answer').style.maxHeight = null;
-                }
-                item.classList.add('open');
-                answer.style.maxHeight = answer.scrollHeight + "px";
-            }
-        });
-    });
-});

@@ -242,8 +242,8 @@ footer img {
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
 #map {
-    height: 600px;
-    width: 1700px;
+    height: 500px;
+    width: 1000px;
     border-radius: 10px;
     border: 2px solid white;
 }

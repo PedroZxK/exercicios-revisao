@@ -101,7 +101,7 @@
 
     .menu-content {
         font-size: 0.8rem;
-        max-height: 30vh;
+        max-height: 25vh;
     }
 }
 
@@ -161,7 +161,7 @@
 
     .menu-content {
         font-size: 0.8rem;
-        max-height: 30vh;
+        max-height: 25vh;
         z-index: 1000;
     }
 }

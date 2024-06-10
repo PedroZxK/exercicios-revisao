@@ -137,6 +137,7 @@ footer img {
     transform: scaleY(0);
     transform-origin: top;
     transition: opacity 0.3s, transform 0.3s;
+    z-index: 9999;
 }
 
 .menu-content::-webkit-scrollbar {
@@ -241,54 +242,80 @@ footer img {
 
 /* ---------------------------------------PADRAO---------------------------------------------------- */
 
-.faq-container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
+#content {
+    background-color: #ffffff;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
 }
 
-h1 {
-    text-align: center;
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#send {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5E00FF;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
     margin-bottom: 20px;
 }
 
-.faq-item {
+#send:hover {
+    transform: scale(106%);
+    transition: 0.3s;
+    background-color: #833bff;
+    color: rgb(255, 240, 240);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
 }
 
-.faq-question {
-    cursor: pointer;
-    font-weight: bold;
-    position: relative;
-    padding-right: 20px;
+#content-ul {
+    background-color: #5E00FF;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
-.faq-question::after {
-    content: '+';
-    position: absolute;
-    right: 0;
-    transition: transform 0.3s;
+#messages {
+    color: white;
 }
 
-.faq-item.open .faq-question::after {
-    transform: rotate(45deg);
+#messages {
+    list-style: none;
+    padding: 0;
 }
 
-.faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    margin-top: 10px;
-    color: #555;
-    padding-right: 20px;
+#messages li {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.faq-item.open .faq-answer {
-    max-height: 200px;
+.arrow-right, #button2 {
+    display: none;
 }
