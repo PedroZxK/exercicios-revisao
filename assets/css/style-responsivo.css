@@ -1,0 +1,353 @@
+/* Pedro Gabriel Moreira dos Santos nº26 */
+
+@media only screen and (max-width: 320px) {
+    body {
+        height: 180vh;
+    }
+
+    .buttons button {
+        width: 11vh;
+    }
+
+    #pb1,
+    #pb2,
+    #pb3,
+    #pb4,
+    #pb5,
+    #pb6 {
+        display: none;
+    }
+
+    #sec-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu-content {
+        font-size: 0.7rem;
+        max-height: 25vh;
+    }
+
+    nav .nav-title {
+        font-size: 20px;
+    }
+
+    nav .avatar {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin-right: 25px;
+    }
+
+    .footer-left h2 {
+        font-size: 0.9rem;
+    }
+
+    .footer-left p {
+        font-size: 0.6rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 319px) {
+    body {
+        height: 150vh;
+    }
+
+    .buttons button {
+        width: 14vh;
+    }
+
+    #pb1,
+    #pb2,
+    #pb3,
+    #pb4,
+    #pb5,
+    #pb6 {
+        display: none;
+    }
+
+    #sec-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    nav .avatar {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+    }
+
+    nav .nav-title {
+        font-size: 25px;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin-right: 25px;
+    }
+
+    .footer-left h2 {
+        font-size: 0.9rem;
+    }
+
+    .footer-left p {
+        font-size: 0.6rem;
+    }
+
+    .mobile-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .menu-content {
+        font-size: 0.8rem;
+        max-height: 30vh;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin-right: 45px;
+        margin-left: -20px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 567px) {
+    body {
+        height: 160vh;
+    }
+
+    #pb1,
+    #pb2,
+    #pb3,
+    #pb4,
+    #pb5,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 110%;
+        margin-top: 10px;
+    }
+
+    #sec-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav .avatar {
+        width: 60px;
+        height: 60px;
+        top: 30%;
+    }
+
+
+    nav .nav-title {
+        font-size: 30px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-left h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer-left p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 567px) and (max-width: 718px) {
+    body {
+        height: 160vh;
+    }
+
+    #pb1,
+    #pb2,
+    #pb3,
+    #pb4,
+    #pb5,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 110%;
+        margin-top: 10px;
+    }
+
+    nav .avatar {
+        width: 60px;
+        height: 60px;
+        top: 30%;
+    }
+
+
+    nav .nav-title {
+        font-size: 30px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-left h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer-left p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 719px) {
+    body {
+        height: 160vh;
+    }
+
+    #pb1,
+    #pb2,
+    #pb3,
+    #pb4,
+    #pb5,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 110%;
+        margin-top: 10px;
+    }
+
+    nav .nav-title {
+        font-size: 31px;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 767px) {
+    body {
+        height: 160vh;
+    }
+
+
+    #pb3,
+    #pb4,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 100%;
+        margin-top: 10px;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 901px) {
+    body {
+        height: 130vh;
+    }
+
+
+    #pb3,
+    #pb4,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 100%;
+        margin-top: 10px;
+    }
+
+    nav .avatar {
+        width: 65px;
+        height: 65px;
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1023px) {
+    body {
+        height: 110vh;
+    }
+
+
+    #pb3,
+    #pb4,
+    #pb6 {
+        display: none;
+    }
+
+    .buttons button {
+        scale: 100%;
+        margin-top: 10px;
+    }
+
+    nav .avatar {
+        width: 70px;
+        height: 70px;
+        top: 35%;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    .purple-bar {
+        margin-right: 1.5vh;
+        margin-left: 1.5vh;
+
+    }
+
+    nav .avatar {
+        width: 80px;
+        height: 80px;
+        top: 40%;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {}
+
+@media only screen and (min-width: 1601px) and (max-width: 1700px) {}
+
+@media only screen and (min-width: 1701px) {}

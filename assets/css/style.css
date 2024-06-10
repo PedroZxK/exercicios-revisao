@@ -1,0 +1,265 @@
+/* Pedro Gabriel Moreira dos Santos nº26 */
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav.purple-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, #150137, #5E00FF);
+    color: white;
+}
+
+nav .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: 0.3s;
+
+}
+
+nav .menu-icon:hover {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: 0.3s;
+    transform: scale(110%);
+}
+
+nav .nav-title {
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+nav .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    right: 0;
+    margin: 30px;
+}
+
+
+nav .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer.purple-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    background: linear-gradient(to top, #150137, #5E00FF);
+    color: white;
+    font-size: 14px;
+}
+
+footer .footer-left {
+    flex: 1;
+}
+
+footer .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    margin-left: 0px;
+    cursor: pointer;
+    filter: brightness(0) invert(100%);
+}
+
+#menu-hamburguer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    max-height: 80vh;
+    padding: 5px;
+    margin-left: 50px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-content li {
+    margin: 0;
+}
+
+.menu-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+}
+
+.menu-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-content.show {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+    transform: translateY(10px);
+
+}
+
+.linkedin {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.github {
+    transition: 0.3s;
+}
+
+.linkedin:hover,
+.github:hover {
+    transition: 0.3s;
+    transform: scale(110%);
+}
+
+/* ---------------------------------------PADRAO---------------------------------------------------- */
+
+.purple-bar {
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.section h2 {
+    color: white;
+}
+
+.section:last-child .purple-bar {
+    display: none;
+}
+
+.buttons h2 {
+    font-size: 1rem;
+}
+
+.buttons button {
+    background-color: #5E00FF;
+    border: none;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 20vh;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    transition: 0.3s;
+    transform: scale(107%);
+    background-color: #833bff;
+    color: rgb(255, 240, 240);
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sec-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.section h2 {
+    text-align: center;
+}
