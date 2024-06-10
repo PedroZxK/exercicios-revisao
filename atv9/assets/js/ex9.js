@@ -1,3 +1,5 @@
+/* Pedro Gabriel Moreira dos Santos nº26 */
+
 function toggleMenu() {
     const menuContent = document.getElementById('menuContent');
     if (menuContent.classList.contains('show')) {
