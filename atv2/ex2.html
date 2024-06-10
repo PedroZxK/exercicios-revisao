@@ -29,6 +29,7 @@
         </div>
         <div class="menu-content" id="menuContent">
             <ul>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="../atv1/ex1.html">Exercício 1</a></li>
                 <li><a href="../atv2/ex2.html">Exercício 2</a></li>
                 <li><a href="../atv3/ex3.html">Exercício 3</a></li>
