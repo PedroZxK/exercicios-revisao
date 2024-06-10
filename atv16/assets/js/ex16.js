@@ -43,8 +43,15 @@ function addTask(e) {
     const taskText = taskInput.value;
     const li = document.createElement('li');
     li.textContent = taskText;
+
+    const completeBtn = document.createElement('button');
+    completeBtn.textContent = 'Concluído';
+    completeBtn.classList.add('complete-btn');
+    li.appendChild(completeBtn);
+
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remover';
+    removeBtn.classList.add('remove-btn');
     li.appendChild(removeBtn);
 
     taskList.appendChild(li);
@@ -53,16 +60,18 @@ function addTask(e) {
 }
 
 function manageTasks(e) {
-    if (e.target.tagName === 'BUTTON') {
+    if (e.target.classList.contains('remove-btn')) {
         const taskItem = e.target.parentElement;
-        const taskText = taskItem.textContent.replace('Remover', '').trim();
+        const taskText = taskItem.textContent.replace('ConcluídoRemover', '').trim();
         if (confirm(`Tem certeza de que deseja deletar a tarefa "${taskText}"?`)) {
             removeTask(taskText);
             taskItem.remove();
         }
-    } else {
-        e.target.classList.toggle('completed');
-        toggleCompleteTask(e.target.textContent.replace('Remover', '').trim());
+    } else if (e.target.classList.contains('complete-btn')) {
+        const taskItem = e.target.parentElement;
+        const taskText = taskItem.textContent.replace('ConcluídoRemover', '').trim();
+        taskItem.classList.toggle('completed');
+        toggleCompleteTask(taskText);
     }
 }
 
@@ -97,9 +106,17 @@ function loadTasks() {
         if (task.completed) {
             li.classList.add('completed');
         }
+
+        const completeBtn = document.createElement('button');
+        completeBtn.textContent = 'Concluído';
+        completeBtn.classList.add('complete-btn');
+        li.appendChild(completeBtn);
+
         const removeBtn = document.createElement('button');
         removeBtn.textContent = 'Remover';
+        removeBtn.classList.add('remove-btn');
         li.appendChild(removeBtn);
+
         taskList.appendChild(li);
     });
 }
@@ -113,30 +130,3 @@ function getTasksFromStorage() {
     }
     return tasks;
 }
-
-// Menu toggle function
-function toggleMenu() {
-    const menuContent = document.getElementById('menuContent');
-    if (menuContent.classList.contains('show')) {
-        menuContent.classList.remove('show');
-        setTimeout(() => {
-            menuContent.style.display = 'none';
-        }, 300);
-    } else {
-        menuContent.style.display = 'block';
-        setTimeout(() => {
-            menuContent.classList.add('show');
-        }, 10);
-    }
-}
-
-document.addEventListener('click', function (event) {
-    var menuContent = document.getElementById('menuContent');
-    var menuIcon = document.querySelector('.menu-icon');
-
-    var isClickInsideMenu = menuContent.contains(event.target) || menuIcon.contains(event.target);
-
-    if (!isClickInsideMenu) {
-        menuContent.classList.remove('show');
-    }
-});

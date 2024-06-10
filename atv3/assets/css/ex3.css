@@ -355,3 +355,18 @@ button:hover {
     border-bottom: 1px solid black;
     border-radius: 0 !important;
 }
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

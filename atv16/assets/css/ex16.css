@@ -248,7 +248,7 @@ footer img {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 800px;
 }
 
 h1 {
@@ -331,8 +331,78 @@ nav.purple-nav {
 footer.purple-footer {
     z-index: 10;
 }
+
 .page-description {
     z-index: 10;
+}
+
+#content {
+    z-index: 5;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .complete-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #00FF00;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    /* Adicione esta linha */
+}
+
+li .complete-btn:hover {
+    background-color: #32CD32;
+    scale: 110%;
+    color: rgb(255, 240, 240);
+}
+
+li .remove-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ff0000;
+    transition: 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+li .remove-btn:hover {
+    background-color: #ff3b3b;
+    scale: 110%;
+    color: rgb(255, 240, 240);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
 }
 
 #content {

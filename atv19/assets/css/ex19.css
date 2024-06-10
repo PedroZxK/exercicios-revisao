@@ -357,3 +357,14 @@ button {
 #content h1 {
     font-size: 1.5rem;
 }
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

@@ -306,3 +306,19 @@ button:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: -10;
+}
+
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

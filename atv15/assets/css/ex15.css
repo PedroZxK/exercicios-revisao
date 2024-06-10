@@ -268,3 +268,18 @@ p {
     border: 1px solid black;
     resize: none;
 }
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

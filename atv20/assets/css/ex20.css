@@ -361,3 +361,14 @@ button {
 #content h4 {
     text-align: center;
 }
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

@@ -303,3 +303,18 @@ footer img {
     scale: 105%;
     color: rgb(255, 240, 240);
 }
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: -10;
+}
+.page-description {
+    z-index: -10;
+}
+
+#content {
+    z-index: 5;
+}

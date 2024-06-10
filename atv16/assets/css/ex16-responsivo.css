@@ -1,6 +1,10 @@
 /* Pedro Gabriel Moreira dos Santos nº26 */
 
 @media only screen and (max-width: 320px) {
+    .container {
+        width: 330px;
+    }
+
     #content {
         scale: 85%;
     }
@@ -50,6 +54,10 @@
 }
 
 @media only screen and (max-width: 480px) and (min-width: 319px) {
+    .container {
+        width: 330px;
+    }
+
     #content {
         scale: 85%;
     }
@@ -100,6 +108,10 @@
 }
 
 @media only screen and (max-width: 480px) and (min-width: 406px) {
+    .container {
+        width: 400px;
+    }
+
     #content {
         scale: 85%;
     }
@@ -151,6 +163,10 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+
     .mobile-buttons {
         display: none;
     }
@@ -197,6 +213,10 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 718px) {
+    .container {
+        width: 500px;
+    }
+
     .mobile-buttons {
         display: none;
     }
@@ -243,6 +263,10 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 719px) {
+    .container {
+        width: 600px;
+    }
+
     .mobile-buttons {
         display: none;
     }
@@ -270,6 +294,10 @@
 }
 
 @media only screen and (max-width: 900px) and (min-width: 767px) {
+    .container {
+        width: 600px;
+    }
+
     .mobile-buttons {
         display: none;
     }
