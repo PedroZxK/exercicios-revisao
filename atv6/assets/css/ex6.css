@@ -314,3 +314,18 @@ button:hover {
 .comments-section h1 {
     text-align: center;
 }
+
+nav.purple-nav {
+    z-index: 10;
+}
+
+footer.purple-footer {
+    z-index: 10;
+}
+.page-description {
+    z-index: 10;
+}
+
+#content {
+    z-index: 5;
+}
