@@ -30,7 +30,7 @@ document.addEventListener('click', function (event) {
 
 function getWeather() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = 'e7704bc895b4a8d2dfd4a29d404285b6';
+    const apiKey = 'b2b66cfea3cd871741574874f631198c';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=pt_br&units=metric`;
 
     fetch(apiUrl)

@@ -37,7 +37,6 @@ function fazerReserva() {
 
     if (selectedDate && selectedTime) {
         alert("Reserva feita para " + selectedDate + " às " + selectedTime + ".");
-        // Limpar os campos após a reserva ser feita
         dateInput.value = "";
         timeInput.value = "";
     } else {
